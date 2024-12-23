@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Simple carousel</title>
+        <style>
+            body{
+                background-color:#deb878 ;
+            }
+
+            h1{
+                text-align: center;
+                text-decoration: underline;
+                text-transform: capitalize;
+            }
+
+            .carousel-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+            }
+
+            .myslides{
+                display: none;
+                max-height: 100%;
+                max-width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My favourite places</h1>
+
+        <div class="carousel-container"></div>
+
+        <img class="myslides" src="download pic1.jpg" height="300" width="300" alt="slide-1">
+        <img class="myslides" src="download pic3.jpg" height="300" width="300" alt="slide-2">
+        <img class="myslides" src="download pic4.jpg" height="300" width="300" alt="slide-3">
+        
+        <script src="script.js">
+
+        </script>
+    </body>
+</html>
